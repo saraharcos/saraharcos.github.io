@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "About Me"
       href: about.html
+    - text: "Projects"
+      href: projects.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
@@ -16,5 +18,5 @@ navbar:
       href: https://twitter.com/sarah_arcos
 output:
   html_document:
-    theme: paper
-    css: 'styles.css'
+    theme: flatly
+    css: 'style.css'

@@ -1,7 +1,11 @@
 ---
 title: "About Me"
-author: "Sarah Arcos"
-date: "7/1/2019"
-output: html_document
 ---
 
+- __Name:__ Sarah
+- __Ocupation:__ PhD Candidate in Biochemistry at Vanderbilt University, Nashville TN
+- __Hobbies:__ Hiking, reading, teaching my cat cool tricks
+
+
+
+![](NCArboretum.jpg)

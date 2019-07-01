@@ -1,0 +1,22 @@
+---
+title: "Projects"
+---
+
+Current projects in the Ascano Lab
+
+## [VIR-CLASP for Chikungunya Virus](https://github.com/saraharcos/CHIKV_VIRCLASP_Analysis)
+
+- Analysis of our VIR-CLASP mass spec data for Chikungunya Virus (CHIKV)
+- Links to a github repo for access to all the code
+- Raw data will be available in semi-processed form (github) and raw form (PRIDE)
+
+## [VIR-CLASP for Influenza A Virus](https://github.com/saraharcos/IAV_VIRCLASP_Analysis)
+
+- Analysis of our VIR-CLASP mass spec data for Influenza A Virus (IAV) H3N2
+- Links to a github repo for access to all the code
+- Raw data will be available in semi-processed form (github) and raw form (PRIDE)
+
+## [Exploring m6A and YTHDF CLIP datasets](https://github.com/saraharcos/m6A_Exploratory)
+
+- Using published high-throughput sequencing datasets to explore m6A modification and YTHDF post-transcriptional gene regulation
+- Links to a github repo for access to all the code
