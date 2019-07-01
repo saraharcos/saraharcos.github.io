@@ -4,8 +4,11 @@ title: "Projects"
 
 Current projects in the Ascano Lab
 
+![](vir_clasp-01.png)
+
 ## [VIR-CLASP for Chikungunya Virus](https://github.com/saraharcos/CHIKV_VIRCLASP_Analysis)
 
+- VIR-CLASP: VIRal Cross-Linking and Solid-phase Purification
 - Analysis of our VIR-CLASP mass spec data for Chikungunya Virus (CHIKV)
 - Links to a github repo for access to all the code
 - Raw data will be available in semi-processed form (github) and raw form (PRIDE)

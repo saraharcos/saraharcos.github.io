@@ -1,5 +1,16 @@
 ---
-title: "Personal Website"
+title: "About"
 ---
+
+- __Name:__ Sarah
+- __Ocupation:__ PhD Candidate in Biochemistry at Vanderbilt University, Nashville TN
+- __Hobbies:__ Hiking, reading, teaching my cat cool tricks
+
+
+
+![](NCArboretum.jpg)
+
+
+
 
 __Made with the help of Nick and Lucy's wonderful [tutorial](http://nickstrayer.me/RMarkdown_Sites_tutorial/)__
