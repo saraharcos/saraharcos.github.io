@@ -1,0 +1,20 @@
+name: "Sarah Arcos"
+output_dir: "."
+navbar:
+  title: "Sarah Arcos"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/saraharcos
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/sarah_arcos
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
