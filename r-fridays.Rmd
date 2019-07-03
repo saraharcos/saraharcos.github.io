@@ -1,0 +1,12 @@
+---
+title: "R fridays"
+author: "Sarah Arcos"
+date: "7/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##R fridays is a weekly meeting at Vanderbilt University to solve biology/biochemistry data analysis problems in a group setting. If you are interested, you can learn more [here](http://r-fridays.rbind.io). Everyone is welcome! 
