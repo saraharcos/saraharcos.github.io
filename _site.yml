@@ -10,7 +10,7 @@ navbar:
     - text: "R fridays"
       href: r-fridays.html
     - text: "CV"
-      href: cv.html
+      href: cv_ns.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
