@@ -9,6 +9,6 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
 
-Click [here](http://docs.google.com/gview?url=https://www.dropbox.com/s/ybalpqmu8ae0fgd/SEA_CV_090719.pdf?dl=1&embedded=true) to view my CV
+Click [here](http://docs.google.com/gview?url=https://www.dropbox.com/s/ybalpqmu8ae0fgd/cv.pdf?dl=1&embedded=true) to view my CV
 
 
