@@ -4,22 +4,24 @@ title: "Projects"
 
 Current projects in the Ascano Lab
 
+### VIR-CLASP
+
 ![](vir_clasp-01.png)
 
-## [VIR-CLASP for Chikungunya Virus](https://github.com/saraharcos/CHIKV_VIRCLASP_Analysis)
+VIR-CLASP (Viral Cross-Linking And Solid-phase Purification) is a technique I co-developed to study host-pathogen interactions at the earliest stages of viral infection. This technique asks __What are the host RNA-binding proteins that directly interact with pre-replicated RNA virus genomes?__ The main trick of VIR-CLASP is to use the nucleoside analog 4SU to label RNA virus genomes, followed by infection into unlabeled host cells. This allows for the specific identification of protein interactions with incoming virion RNA, and not later stages of viral replication or host mRNAs.  Follow the links below to access all the data and code from our proteomics analysis of Chikungunya and Influenza A virus. 
 
-- VIR-CLASP: VIRal Cross-Linking and Solid-phase Purification
-- Analysis of our VIR-CLASP mass spec data for Chikungunya Virus (CHIKV)
-- Links to a github repo for access to all the code
-- Raw data will be available in semi-processed form (github) and raw form (PRIDE)
+[VIR-CLASP for Chikungunya Virus](https://github.com/saraharcos/CHIKV_VIRCLASP_Analysis)
 
-## [VIR-CLASP for Influenza A Virus](https://github.com/saraharcos/IAV_VIRCLASP_Analysis)
+[VIR-CLASP for Influenza A Virus](https://github.com/saraharcos/IAV_VIRCLASP_Analysis)
 
-- Analysis of our VIR-CLASP mass spec data for Influenza A Virus (IAV) H3N2
-- Links to a github repo for access to all the code
-- Raw data will be available in semi-processed form (github) and raw form (PRIDE)
+[Proteomics Data](https://www.ebi.ac.uk/pride/archive/projects/PXD015863)
 
-## [Exploring m6A and YTHDF CLIP datasets](https://github.com/saraharcos/m6A_Exploratory)
+[Publication](https://pubmed.ncbi.nlm.nih.gov/32380061/)
 
-- Using published high-throughput sequencing datasets to explore m6A modification and YTHDF post-transcriptional gene regulation
-- Links to a github repo for access to all the code
+
+
+### Exploring m6A and YTHDF CLIP datasets
+
+YTHDF proteins regulate RNA metabolism through recognition of the RNA modification N6-methyladenosine (m6A). While __in vitro__ biochemical data indicate that YTHDF proteins have a modest preference for methylated RNA over unmethylated RNA, __in vivo__ results indicate widespread binding of YTHDF proteins to unmethylated mRNAs and viral RNAs. This project aims to investigate the binding determinants and biological implications of YTHDF recognition of unmethylated RNAs.
+
+[Exploring m6A and YTHDF CLIP datasets](https://github.com/saraharcos/m6A_Exploratory)
