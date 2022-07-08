@@ -11,6 +11,8 @@ navbar:
       href: r-fridays.html
     - text: "CV"
       href: cv.html
+    - text: "Network"
+      href: network.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html

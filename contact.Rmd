@@ -4,4 +4,4 @@ author: "Sarah Arcos"
 
 ---
 
-sarah.e.arcos (at) vanderbilt (dot) edu
+sarcos (at) med (dot) umich (dot) edu

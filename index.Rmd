@@ -3,7 +3,7 @@ title: "About"
 ---
 
 - __Name:__ Sarah
-- __Ocupation:__ PhD Candidate in Biochemistry at Vanderbilt University, Nashville TN
+- __Ocupation:__ Post-doctoral Fellow in Adam Lauring's lab at the University of Michigan, Ann Arbor
 - __Hobbies:__ Hiking, reading, teaching my cat cool tricks
 
 
