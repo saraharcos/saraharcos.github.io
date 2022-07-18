@@ -12,7 +12,7 @@ library(associationsubgraphs)
 <br/>
 <br/>
 
-Network visualizations generated using the [associationubgraphs](https://github.com/nstrayer/associationsubgraphs) package by Nick Strayer.
+Network visualizations generated using the [associationsubgraphs](https://github.com/nstrayer/associationsubgraphs) package by Nick Strayer.
 
 ---
 
