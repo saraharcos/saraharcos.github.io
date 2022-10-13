@@ -20,25 +20,22 @@ Network visualizations generated using the [associationsubgraphs](https://github
 # H3N2 Polymerase
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
-mi_iav_info2 <- readRDS("/Users/saraharcos/Desktop/Lauring Lab/MI_Networks_App/data/mi_iav_info2.rds")
-mip_noHA<- readRDS("/Users/saraharcos/Desktop/Lauring Lab/timeMI/data/h3n2_meaned_mip_noHA.rds")
-mi_noHA_small <- mip_noHA %>%
-  select(V1, V2, mi) %>%
-  left_join(mi_iav_info2, by = c("V1" = "index")) %>%
-  left_join(mi_iav_info2, by = c("V2" = "index")) %>%
-  select(a = "id.x", b = "id.y", strength = mi) %>%
-  filter(strength > 0) %>%
-  slice_max(order_by = strength, n = 1800)
+mi_network_info <- readRDS("/Users/saraharcos/Desktop/Lauring Lab/timeMI/data/mi_network_info.rds")
+mip_noHA<- readRDS("/Users/saraharcos/Desktop/Lauring Lab/timeMI/data/MI_results_091122/h3n2_meaned_mi_noHA.rds") %>%
+  left_join(mi_network_info, by = c("V1" = "index")) %>%
+  left_join(mi_network_info, by = c("V2" = "index")) %>%
+  select(a = "id.x", b = "id.y", strength = mip) %>%
+  slice_max(strength, n = 2232/2)
 
-sub_structure_noHA <- mi_noHA_small %>%
+sub_structure_noHA <- mip_noHA %>%
   calculate_subgraph_structure()
 
 visualize_subgraph_structure(
-  association_pairs = mi_noHA_small,
-  node_info = mi_iav_info2 %>% select(-index),
+  association_pairs = mip_noHA,
+  node_info = mi_network_info %>% select(-index),
   subgraph_results = sub_structure_noHA,
   trim_subgraph_results = FALSE,
-  default_step = as.integer(37)
+  default_step = "min_max_rule"
 )
 ```
 
@@ -54,24 +51,21 @@ visualize_subgraph_structure(
 # H3N2 Polymerase with HA
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
-mi <- readRDS("/Users/saraharcos/Desktop/Lauring Lab/timeMI/data/h3n2_meaned_mi.rds") %>%
-  select(V1, V2, mi) %>%
-  left_join(mi_iav_info2, by = c("V1" = "index")) %>%
-  left_join(mi_iav_info2, by = c("V2" = "index")) %>%
-  select(a = "id.x", b = "id.y", strength = mi) %>%
-  filter(strength > 0)
+mi <- mi <- readRDS("/Users/saraharcos/Desktop/Lauring Lab/timeMI/data/MI_results_091122/h3n2_meaned_mi.rds") %>%
+  select(V1, V2, mip) %>%
+  left_join(mi_network_info, by = c("V1" = "index")) %>%
+  left_join(mi_network_info, by = c("V2" = "index")) %>%
+  select(a = "id.x", b = "id.y", strength = mip) %>%
+  slice_max(strength, n = 2798/2)
 
-mi_small <- mi %>%
-  slice_max(order_by = strength, n = 2000)
-
-sub_structure <- mi_small %>%
+sub_structure <- mi %>%
   calculate_subgraph_structure()
 
 visualize_subgraph_structure(
-  association_pairs = mi_small,
-  node_info = mi_iav_info2 %>% select(-index),
+  association_pairs = mi,
+  node_info = mi_network_info %>% select(-index),
   subgraph_results = sub_structure,
   trim_subgraph_results = FALSE,
-  default_step = as.integer(114)
+  default_step = "min_max_rule"
 )
 ```
