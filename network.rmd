@@ -20,8 +20,8 @@ Network visualizations generated using the [associationsubgraphs](https://github
 # H3N2 Polymerase
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
-mi_network_info <- readRDS("/Users/saraharcos/Desktop/Lauring Lab/timeMI/data/mi_network_info.rds")
-mip_noHA<- readRDS("/Users/saraharcos/Desktop/Lauring Lab/timeMI/data/MI_results_091122/h3n2_meaned_mi_noHA.rds") %>%
+mi_network_info <- readRDS("/Users/sarcos/Desktop/Lauring Lab/timeMI/data/mi_network_info.rds")
+mip_noHA<- readRDS("/Users/sarcos/Desktop/Lauring Lab/timeMI/data/h3n2pol_equalMI.rds") %>%
   left_join(mi_network_info, by = c("V1" = "index")) %>%
   left_join(mi_network_info, by = c("V2" = "index")) %>%
   select(a = "id.x", b = "id.y", strength = mip) %>%
@@ -51,7 +51,7 @@ visualize_subgraph_structure(
 # H3N2 Polymerase with HA
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
-mi <- mi <- readRDS("/Users/saraharcos/Desktop/Lauring Lab/timeMI/data/MI_results_091122/h3n2_meaned_mi.rds") %>%
+mi <- readRDS("/Users/sarcos/Desktop/Lauring Lab/timeMI/data/h3n2polHA_equalMI.rds") %>%
   select(V1, V2, mip) %>%
   left_join(mi_network_info, by = c("V1" = "index")) %>%
   left_join(mi_network_info, by = c("V2" = "index")) %>%
